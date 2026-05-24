@@ -117,12 +117,3 @@ set_property IOSTANDARD LVCMOS33 [get_ports {saida_leds[1]}]
 
 set_property PACKAGE_PIN L1 [get_ports {saida_leds[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {saida_leds[0]}]
-
-
-## =========================================================
-## Saída Osciloscópio (porta "saida_analog")
-## indica que o sinal saírá no pino analógico "J1"
-## =========================================================
-
-set_property PACKAGE_PIN J1 [get_ports {saida_analog}]
-set_property IOSTANDARD LVCMOS33 [get_ports {saida_analog}]

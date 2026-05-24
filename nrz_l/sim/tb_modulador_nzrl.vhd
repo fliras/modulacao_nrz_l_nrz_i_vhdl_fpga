@@ -13,7 +13,6 @@ architecture sim of tb_modulador_nrzl is
 
     signal clock     : std_logic := '0'; -- sinla para emular o sinal de clock
     signal saida_testbench  : std_logic; -- sinal para observar a saída do testbench no waveform
-    signal saida_analog: std_logic;      -- sinal para observar a saída analógica no osciloscópio (irrelevante no testbench)
     signal entrada : std_logic_vector(0 to NUM_BITS - 1) := "1011001110001111"; -- vetor de bits a ser transmitido, pode ser modificado para testar diferentes sequências
 
 begin
@@ -27,7 +26,6 @@ begin
         port map (
             clock => clock,
             saida_testbench => saida_testbench,
-            saida_analog => saida_analog,
             entrada => entrada
         );
 
