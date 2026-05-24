@@ -10,7 +10,7 @@ entity modulador_nrzl is
     port (
         clock: in  std_logic; -- porta que representa o sinal de clock
         entrada: in  std_logic_vector(0 to NUM_BITS-1); -- input do testbench ou dos switches da placa física
-        saida_analog: out std_logic; -- output no osciloscópio conectado à placa física
+        saida_analog: out std_logic -- output no osciloscópio conectado à placa física
         
     );
 end entity;
