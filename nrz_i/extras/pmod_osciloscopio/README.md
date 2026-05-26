@@ -1,18 +1,24 @@
-# Modulação NRZ-I via PMOD (Osciloscópio)
-Implementação em VHDL da modulação Unipolar NRZ-I, com o pulso de saída sendo visualizado com o auxílio de um osciloscópio conectado ao circuito.
+## Extra
+Saída pelo PMOD (Osciloscópio)
+Disponibiliza o sinal modulado em um pino do conector PMOD da
+placa, permitindo visualizar a forma de onda em um osciloscópio
+físico.
 
 ## Estrutura desta pasta
 ```
-extras/pmod_osciloscopio/
-|-- src/                          Código-fonte VHDL do circuito
-|-- constraints/                  Mapeamento dos pinos da FPGA (.xdc)
-|-- docs/                         Tutoriais e documentação técnica
+pmod_osciloscopio/
+|-- src/              Código VHDL adaptado com saída no PMOD
+|-- constraints/      Constraint com mapeamento do pino PMOD
+`-- docs/             Tutorial e capturas do osciloscópio
 ```
 
-## Arquivos de código
-- `src/NRZI_Source.vhd` - código-fonte do circuito principal
-- `constraints/modulador_nrzi.xdc` - mapeamento dos pinos da FPGA
+## Equipamentos necessários
+- Placa Basys3 xc7a35tcpg236-1
+- KIT Analog Discovery 3 – Pro Bundle (com Osciloscópio, cabos e conectores)
 
-
-## Documentação
-- [Tutorial de gravação na placa e configuração do osciloscópio](./docs/tutorial.pdf) - Siga este tutorial para visualizar a modulação no osciloscópio.
+## Como reproduzir
+Ver o [tutorial completo](./docs/tutorial.pdf), que descreve:
+1. Conexão física do osciloscópio ao pino do PMOD
+2. Gravação do bitstream
+3. Configuração da escala do osciloscópio
+4. Captura da forma de onda
