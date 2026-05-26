@@ -31,7 +31,7 @@ opcionais (saída PMOD e saída VGA).
 
 ## Relatório
 - [Relatório técnico final](./relatorio_final/relatorio.pdf)
-- [Vídeo de demonstração](./relatorio_final/video_demo.mp4)
+- [Vídeo de demonstração](https://youtu.be/amw9NHEn2wY)
 
 ## Ferramentas utilizadas
 - Vivado 2025.2
