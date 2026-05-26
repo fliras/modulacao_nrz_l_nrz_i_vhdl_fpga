@@ -3,7 +3,7 @@ Implementação em VHDL da modulação Unipolar NRZ-I, com o pulso de saída sen
 
 ## Estrutura desta pasta
 ```
-nrz_i/
+extras/pmod_osciloscopio/
 |-- src/                          Código-fonte VHDL do circuito
 |-- constraints/                  Mapeamento dos pinos da FPGA (.xdc)
 |-- docs/                         Tutoriais e documentação técnica
