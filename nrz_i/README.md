@@ -30,7 +30,7 @@ nrz_i/
 
 Para uma **simulação rápida** (apenas ver funcionando):
 
-1. Abrir o Vivado e carregar `vivado_project/nrz_i.xpr` (extraia o zip do projeto antes)
+1. Abrir o Vivado e carregar `vivado_project/NRZI.xpr` (extraia o zip do projeto antes)
 2. Clicar em `Run Simulation`-> `Run Behavioral Simulation`
 
 Para **reproduzir o projeto do zero**, siga esta ordem:
